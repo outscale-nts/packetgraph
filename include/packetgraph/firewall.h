@@ -32,8 +32,6 @@ extern uint32_t pg_npf_nworkers;
  * which process packets.
  *
  * @param	name name of the brick
- * @param	west_max maximum of links you can connect on the west side
- * @param	east_max maximum of links you can connect on the east side
  * @param	flags pass PG_NO_CONN_WORKER if you don't want NPF to spawn a
  *              separated thread to run garbage collector to clean old
  *              connexions. If you pass this flag, then you will be responsible
